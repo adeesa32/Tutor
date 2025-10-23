@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+/*class */
+.libro-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+/* responsive design
+@media(min-width:480px){}
+@media(min-width:768px){}
+@media(min-width:1024px){}
+*/
+@media(min-width: 576px){
+    .libro-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/*Id*/
+/*#texto {color:yellow;
+    font-size:24px}*/
