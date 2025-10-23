@@ -1,0 +1,7 @@
+<h5 appHighlight>Reading excercise: {{ lectura.id | uppercase }}</h5>
+<h5 appHighlight>{{ lectura.title | uppercase }}</h5>
+<img [src]="lectura.imagen" alt="imagen">
+<p></p>
+<!--<a href="/assets/lecturas/cuestionario_4410.htm">Start</a>-->
+<a [routerLink]="['/lectura', lectura.id]">Start</a>
+

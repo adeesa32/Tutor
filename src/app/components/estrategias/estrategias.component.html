@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="listado">
+  <h5>En esta sección econtrarás tips, ideas y estrategias</h5>
+  <h5>para mejorar tu lectura en inglés</h5>
+  <br>
+  <!--<h1>{{estrategia.title | uppercase}}</h1>-->
+    <!--<app-estrategias>-->
+    <ul class ="hola">
+      <li *ngFor="let estrategia of estrategia">
+        <!--<button type="button" (click)="clickestrategia(estrategia.id)">
+          <span class="badge">{{estrategia.title}}</span>
+        </button>-->
+        <p><strong>{{estrategia.title}}</strong></p>
+        <p>{{estrategia.text}}
+        </p>
+        <br>
+      </li>
+    </ul>
+</div>
+

@@ -1,0 +1,65 @@
+<ul class="side-menu">
+	<li><a [routerLink]="['/teacher']" routerLinkActive="router-link-active" >
+        <span class="fas fa-home"></span>Home</a></li>
+	<li><a [routerLink]="['/generalstatistics']" routerLinkActive="router-link-active" >
+        <span class="fas fa-chalkboard-teacher"></span>Statistics</a></li>
+	<li><a [routerLink]="['/loginT']" routerLinkActive="router-link-active" >
+        <span class="fas fa-sign-out-alt"></span>Close Sesion</a></li>
+
+</ul>
+
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header card-header-info">
+                            <h4 class="card-title ">Statistics</h4>
+                            <p class="card-category" style="color: white;">User scores will be here:</p>
+                        </div>
+                        <div class="card-body table-responsive">
+                            <table class="table table-hover">
+                                <thead class="text-info">
+                                    <th>User ID</th>
+                                    <th>User name</th>
+                                    <th>Activity 1</th>
+                                    <th>Activity 2</th>
+                                    <th>Other options</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1234567</td>
+                                        <td>Pedro López</td>
+                                        <td><i class="material-icons text-success">done</i></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2234567</td>
+                                        <td>Luis González</td>
+                                        <td></td>
+                                        <td><i class="material-icons text-warning">priority_high</i></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3456789</td>
+                                        <td>José Perez</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td><i class="material-icons text-danger">close</i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4567891</td>
+                                        <td>Daniel Calleros</td>
+                                        <td><i class="material-icons text-success">done</i></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
