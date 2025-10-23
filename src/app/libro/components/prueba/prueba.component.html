@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<p>Extensive reading section</p>
+<!--<p>prueba works! Escriba el nombre del elemento a agregar: Nicolas</p>
+<input type="text" [(ngModel)]="title">
+{{title}}
+
+
+<button (click)="addItem()">Agregar elemento</button>
+
+<ul>
+    <li *ngFor="let name of items; index as i">
+        {{ name }}{{i}}
+        <button (click)="deleteItem(i)">delete</button>
+    </li>
+</ul>
+<div *ngIf="items.length ==0">la lista está vacía</div>-->
+
+<div class="libro-grid">
+    <app-libro
+    *ngFor="let libro of libro"
+    (libroClicked)="clickLibro($event)"
+    [libro]="libro">
+    </app-libro>
+  </div>

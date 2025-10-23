@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <style>
+    aside {
+      width: 30%;
+      padding-left: 15px;
+      margin-left: 15px;
+      float: right;
+      font-style: italic;
+      background-color: lightgray;
+    }
+    </style>
+    </head>
+<div>
+    <img [src]="libro.imagen" alt="portada">
+</div>
+<div>
+    <ul>
+        <li>Título: {{libro.title}}</li>
+        <li>Autor: {{libro.autor}}</li>
+    </ul>
+   <p><a class="e2e-dangerous-url" [href]="safeSrc">Click on me to read!</a></p>
+</div>
+</html>
+
