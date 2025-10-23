@@ -1,0 +1,156 @@
+<ul class="side-menu">
+	<li><a [routerLink]="['/teacher']" routerLinkActive="router-link-active" >
+		<span class="fas fa-home"></span>Home</a></li>
+	<li><a [routerLink]="['/generalstatistics']" routerLinkActive="router-link-active" >
+		<span class="fas fa-chalkboard-teacher"></span>Statistics</a></li>
+	<li><a [routerLink]="['/loginT']" routerLinkActive="router-link-active" >
+		<span class="fas fa-sign-out-alt"></span>Close Sesion</a></li>
+</ul>
+
+	<div class="main-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="card card-stats">
+						<div class="card-header card-header-danger card-header-icon">
+							<div class="card-icon">
+								<i class="material-icons">warning</i>
+							</div>
+							<h3 class="card-title ">Failed Activities</h3>
+							<h3 class="card-body text-center">5</h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="card card-stats">
+						<div class="card-header card-header-success card-header-icon">
+							<div class="card-icon">
+								<i class="material-icons">check_circle</i>
+							</div>
+							<h3 class="card-title">Completed Activities</h3>
+							<h3 class="card-body text-center"> 7</h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="card card-stats">
+						<div class="card-header card-header-warning card-header-icon">
+							<div class="card-icon">
+								<i class="material-icons">assignment</i>
+							</div>
+							<h3 class="card-title">Suggested Activities</h3>
+							<h3 class="card-body text-center">14</h3>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-header card-header-primary">
+                            <h4 class="card-title ">Users activity progress</h4>
+                            <p class="card-category" style="color: white;">User activity status will be here:</p>
+                        </div>
+						<div class="card-body table-responsive">
+							<table class="table table-hover">
+								<thead class="text-primary">
+									<th>ID Usuario</th>
+                  <th>User Name</th>
+                  <th>Activity 1</th>
+                  <th>Activity 2</th>
+                  <th>Activity 3</th>
+								</thead>
+								<tbody>
+									<tr>
+                      <td>1234567</td>
+                      <td>Pedro López</td>
+                      <td><i class="material-icons text-success">done</i></td>
+                      <td><i class="material-icons text-danger">close</i></td>
+                      <td><i class="material-icons text-warning">priority_high</i></td>
+                  </tr>
+                  <tr>
+                      <td>2234567</td>
+                      <td>Luis González</td>
+                      <td><i class="material-icons text-danger">close</i></td>
+                      <td><i class="material-icons text-warning">priority_high</i></td>
+                      <td><i class="material-icons text-success">done</i></td>
+                  </tr>
+                  <tr>
+                      <td>3456789</td>
+                      <td>José Perez</td>
+                      <td><i class="material-icons text-success">done</i></td>
+                      <td><i class="material-icons text-success">done</i></td>
+                      <td><i class="material-icons text-danger">close</i></td>
+                  </tr>
+                  <tr>
+                      <td>4567891</td>
+                      <td>Daniel Calleros</td>
+                      <td><i class="material-icons text-success">done</i></td>
+                      <td><i class="material-icons text-success">done</i></td>
+                      <td><i class="material-icons text-warning">priority_high</i></td>
+                  </tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-header card-header-info">
+							<h4 class="card-title">Activity aceptation</h4>
+							<p class="card-category">Activity status: </p>
+						</div>
+						<div class="card-body table-responsive">
+							<table class="table table-hover">
+								<thead class="text-info">
+									<th>Activity ID</th>
+									<th>Activity name</th>
+									<th>Completed</th>
+									<th>Suggested</th>
+									<th>Delayed</th>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Activity 1</td>
+										<td><p class="text-success">80%</p></td>
+										<td><p class="text-warning">15%</p></td>
+										<td><p class="text-danger">5%</p></td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Activity 2</td>
+										<td><p class="text-success">80%</p></td>
+										<td><p class="text-warning">15%</p></td>
+										<td><p class="text-danger">5%</p></td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Activity 3</td>
+										<td><p class="text-success">80%</p></td>
+										<td><p class="text-warning">15%</p></td>
+										<td><p class="text-danger">5%</p></td>
+									</tr>
+									<!-- <tr>
+										<td>4</td>
+										<td>Actividad 4</td>
+										<td><p class="text-success">80%</p></td>
+										<td><p class="text-warning">15%</p></td>
+										<td><p class="text-danger">5%</p></td>
+									</tr> -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
